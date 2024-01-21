@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+body{
+  height: 100vh;
+}
+nav{
+  position:sticky;
+  top:10px;
+  border-bottom:2px solid black;
+  width: 100%;
+}
+ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-weight: 700;
+}
+a {
+  margin-right: 10px;
+  
+}
+/* / */
+
+main{
+  margin-top: 40px;
+}
+#main-image{
+  z-index: -1;
+}
+#description{
+  margin:30px
+}
+

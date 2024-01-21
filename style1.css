@@ -1,0 +1,98 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel_items {
+  display: flex;
+  wrap: nowrap;
+  overflow: hidden;
+}
+.carousel_item {
+  position: relative;
+  min-width: 350px;
+  height: 350px;
+  transition: all 0.5s linear;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 90px;
+  
+}
+
+
+.item1 {
+  background-image: url("Untitled (1).jpg");
+}
+.item2 {
+  background-image: url("Untitled.jpg");
+}
+.item3 {
+  background-image: url("Capture.JPG");
+}
+.item4 {
+  background-image: url("Capture1.JPG");
+}
+.item5 {
+  background-image: url("IMG-20220928-WA0090.jpg");
+}
+
+.after::after{
+  content:"⌄";
+  margin-left: 10px;
+  font-weight:700;
+}
+@media only screen and (min-width: 526px) and (max-width: 544px) {
+ #vertical-animation-1-1{
+   margin-top: -10px;
+   font-weight: 900;
+   font-size: 1.4rem;
+ }
+  
+}
+@media only screen and (min-width: 319px) and (max-width: 384px) {
+  .footer_font{
+     font-size:1.3rem
+  }
+  .footer_image{ 
+    width: 30px !important;
+    height: 30px !important;
+  }
+  
+  #past-year-events{
+   margin-top:20px;
+   font-size:0.7rem
+ }
+   #past-year-events_1{
+     margin-top:10px;
+     font-size:0.7rem
+   }
+#diagonal_animation_container{
+  margin-left: 160px;
+}
+  #program_4{
+    margin-left: -10px;
+  }
+  #vertical_animation_container_1{
+    margin-left:-90px
+  }
+  #vertical_animation_container_2{
+    margin: 0;
+    margin-left:0px;
+    margin-right: 0px;
+   text-align: right;
+  }
+  #vertical_animation_container_3{
+    margin-left:-90px
+  }
+
+  
+  
+
+
+
+}
+
+
